@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span id="s1">my</span>Portfolio<span>,</span>
+            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="myhome">
+        <div class="homeCont">
+            <h3>Hello, I'm</h3>
+            <h1>Janarathinababu</h1>
+            <h2>Full Stack Developer</h2>
+            <p>I am build responsive, User friendly, and professional web applications.</p>
+            <div class="homebtn">
+                <a href="#projects" class="btn btn1">View Projects</a>
+                <a href="#contact" class="btn btn2">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+     <section id="about" class="aboutMe">
+        <div class="Cont">
+            <h2 class="title">About Me</h2>
+            <div class="aboutGrid">
+                <div class="aboutText">
+                    <h3>Who am I?</h3>
+                    <p>I am Engineering graduate eager to work as a web developer. Good at using tools like SQL, Java, HTML, CSS and JavaScript to design and build websites, backed by hands-on project experience like creating a digital ordering system. Currently taking a full-stack training course to learn how to build complete web applications from start to finish. Ready to learn quickly, the opportunity to work in a team environment and seek an opportunity for continuous learning.</p>
+                </div>
+                <div class="skills">
+                    <span>SQL</span>
+                    <span>Java</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Projects Section -->
+    <section id="projects" class="myproject">
+        <div class="Cont">
+            <h2 class="title">Featured Projects</h2>
+            <div class="proCard">
+                <!-- Project 1 -->
+                <div class="pro">
+                    <div class="proInfo">
+                        <h3>Smart Canteen Management System</h3>
+                        <p>The Smart Canteen Management System streamlines food ordering with digital menus and automated billing,improving service speed and user experience.In this project built with modern HTML, CSS, JavaScript and Nodejs</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                 <div class="pro">
+                    <div class="proInfo">
+                        <h3>Employee Advance Management System</h3>
+                        <p>This is a web-based Employee Advance Management System built with HTML, CSS, and JavaScript that tracks employee advances and salary deductions, featuring dynamic data visualization, multi-language support, and persistent local storage.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="myContact">
+        <div class="Cont">
+            <h2 class="title">Get In Touch</h2>
+            <form class="conForm">
+                <div class="conGroup">
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div class="conGroup">
+                    <input type="text" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="conGroup">
+                    <textarea id="msg" rows="5" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn1">Send Message</button>
+                </div>
+            </form>
+            <div id="formMsg"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Janarathinababu. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
